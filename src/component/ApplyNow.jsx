@@ -219,7 +219,7 @@ const ApplyNow = () => {
     <div>
     <Box
       sx={{
-        background: 'linear-gradient(to bottom, black, #4D0F4A, #140514)',
+        background: 'white',
 
         minHeight: '100vh',
         padding: '30px',
@@ -274,7 +274,7 @@ const ApplyNow = () => {
           }}
         >
           {/* Personal Information Section */}
-          <Typography variant="h6" gutterBottom sx={{color:'white'}}>
+          <Typography variant="h6" gutterBottom sx={{color:'black'}}>
             Personal Information
           </Typography>
 <Grid container spacing={3}>
@@ -298,13 +298,13 @@ const ApplyNow = () => {
           </InputAdornment>
         ),
         style: {
-          color: 'white',  // Text color
+          color: 'black',  // Text color
         },
       }}
       placeholder="Enter your full name"
       sx={{ 
         mb: 2, 
-        color: 'white',  // Text color
+        color: 'black',  // Text color
         borderRadius: '8px',
         transition: 'transform 0.2s',
         '&:hover': {
@@ -312,23 +312,23 @@ const ApplyNow = () => {
         },
         '& .MuiOutlinedInput-root': {
           '& fieldset': {
-            borderColor: 'white',  // Border color
+            borderColor: 'black',  // Border color
           },
           '&:hover fieldset': {
-            borderColor: 'white',  // Border color on hover
+            borderColor: 'black',  // Border color on hover
           },
           '&.Mui-focused fieldset': {
-            borderColor: 'white',  // Border color on focus
+            borderColor: 'black',  // Border color on focus
           },
         },
         '& .MuiInputLabel-root': {
-          color: 'white',  // Label color
+          color: 'black',  // Label color
         },
         '& .MuiInputBase-input': {
-          color: 'white',  // Text input color
+          color: 'black',  // Text input color
         },
         '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
-          color: 'white',  // Placeholder color
+          color: 'black',  // Placeholder color
         },
       }} 
     />
@@ -354,34 +354,34 @@ const ApplyNow = () => {
             },
         }}
         placeholder="Enter your PAN number"
-        sx={{
-            mb: 2, 
-            color: 'white',
-            borderRadius: '8px',
-            transition: 'transform 0.2s',
-            '&:hover': {
-                transform: 'scale(1.02)',
+        sx={{ 
+          mb: 2, 
+          color: 'black',  // Text color
+          borderRadius: '8px',
+          transition: 'transform 0.2s',
+          '&:hover': {
+            transform: 'scale(1.02)',
+          },
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: 'black',  // Border color
             },
-            '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                    borderColor: 'white',
-                },
-                '&:hover fieldset': {
-                    borderColor: 'white',
-                },
-                '&.Mui-focused fieldset': {
-                    borderColor: 'white',
-                },
+            '&:hover fieldset': {
+              borderColor: 'black',  // Border color on hover
             },
-            '& .MuiInputLabel-root': {
-                color: 'white',
+            '&.Mui-focused fieldset': {
+              borderColor: 'black',  // Border color on focus
             },
-            '& .MuiInputBase-input': {
-                color: 'white',
-            },
-            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
-                color: 'white',
-            },
+          },
+          '& .MuiInputLabel-root': {
+            color: 'black',  // Label color
+          },
+          '& .MuiInputBase-input': {
+            color: 'black',  // Text input color
+          },
+          '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+            color: 'black',  // Placeholder color
+          },
         }} 
     />
 {formErrors.pan && <Typography color="error">{formErrors.pan}</Typography>}
@@ -407,34 +407,34 @@ const ApplyNow = () => {
             },
         }}
         placeholder="Enter your Aadhar number"
-        sx={{
-            mb: 2, 
-            color: 'white',
-            borderRadius: '8px',
-            transition: 'transform 0.2s',
-            '&:hover': {
-                transform: 'scale(1.02)',
+        sx={{ 
+          mb: 2, 
+          color: 'black',  // Text color
+          borderRadius: '8px',
+          transition: 'transform 0.2s',
+          '&:hover': {
+            transform: 'scale(1.02)',
+          },
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: 'black',  // Border color
             },
-            '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                    borderColor: 'white',
-                },
-                '&:hover fieldset': {
-                    borderColor: 'white',
-                },
-                '&.Mui-focused fieldset': {
-                    borderColor: 'white',
-                },
+            '&:hover fieldset': {
+              borderColor: 'black',  // Border color on hover
             },
-            '& .MuiInputLabel-root': {
-                color: 'white',
+            '&.Mui-focused fieldset': {
+              borderColor: 'black',  // Border color on focus
             },
-            '& .MuiInputBase-input': {
-                color: 'white',
-            },
-            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
-                color: 'white',
-            },
+          },
+          '& .MuiInputLabel-root': {
+            color: 'black',  // Label color
+          },
+          '& .MuiInputBase-input': {
+            color: 'black',  // Text input color
+          },
+          '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+            color: 'black',  // Placeholder color
+          },
         }} 
     />
 {formErrors.aadhaar && <Typography color="error">{formErrors.aadhaar}</Typography>}
@@ -466,7 +466,7 @@ const ApplyNow = () => {
       placeholder="Enter your mobile number"
       sx={{ 
         mb: 2, 
-        color: 'white',  // Text color
+        color: 'black',  // Text color
         borderRadius: '8px',
         transition: 'transform 0.2s',
         '&:hover': {
@@ -474,26 +474,26 @@ const ApplyNow = () => {
         },
         '& .MuiOutlinedInput-root': {
           '& fieldset': {
-            borderColor: 'white',  // Border color
+            borderColor: 'black',  // Border color
           },
           '&:hover fieldset': {
-            borderColor: 'white',  // Border color on hover
+            borderColor: 'black',  // Border color on hover
           },
           '&.Mui-focused fieldset': {
-            borderColor: 'white',  // Border color on focus
+            borderColor: 'black',  // Border color on focus
           },
         },
         '& .MuiInputLabel-root': {
-          color: 'white',  // Label color
+          color: 'black',  // Label color
         },
         '& .MuiInputBase-input': {
-          color: 'white',  // Text input color
+          color: 'black',  // Text input color
         },
         '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
-          color: 'white',  // Placeholder color
+          color: 'black',  // Placeholder color
         },
-      }} 
-    />
+      }}
+       />
         {formErrors.mobile && <Typography color="error">{formErrors.mobile}</Typography>}
 
   </Grid>
@@ -522,7 +522,7 @@ const ApplyNow = () => {
       placeholder="Enter your personal email"
       sx={{ 
         mb: 2, 
-        color: 'white',  // Text color
+        color: 'black',  // Text color
         borderRadius: '8px',
         transition: 'transform 0.2s',
         '&:hover': {
@@ -530,23 +530,23 @@ const ApplyNow = () => {
         },
         '& .MuiOutlinedInput-root': {
           '& fieldset': {
-            borderColor: 'white',  // Border color
+            borderColor: 'black',  // Border color
           },
           '&:hover fieldset': {
-            borderColor: 'white',  // Border color on hover
+            borderColor: 'black',  // Border color on hover
           },
           '&.Mui-focused fieldset': {
-            borderColor: 'white',  // Border color on focus
+            borderColor: 'black',  // Border color on focus
           },
         },
         '& .MuiInputLabel-root': {
-          color: 'white',  // Label color
+          color: 'black',  // Label color
         },
         '& .MuiInputBase-input': {
-          color: 'white',  // Text input color
+          color: 'black',  // Text input color
         },
         '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
-          color: 'white',  // Placeholder color
+          color: 'black',  // Placeholder color
         },
       }} 
     />
@@ -557,7 +557,7 @@ const ApplyNow = () => {
 
 
           {/* Financial Information Section */}
-          <Typography variant="h6" gutterBottom sx={{ mt: 4,color:'white' }}>
+          <Typography variant="h6" gutterBottom sx={{ mt: 4,color:'black' }}>
             Financial Information
           </Typography>
           <Grid container spacing={3}>
@@ -580,37 +580,36 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter your business name"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
-            },
-            '& .MuiOutlinedInput-root': {
-              '& fieldset': {
-                borderColor: 'white',
-              },
-              '&:hover fieldset': {
-                borderColor: 'white',
-              },
-              '&.Mui-focused fieldset': {
-                borderColor: 'white',
-              },
-            },
+            transition: 'transform 0.2s',
             '&:hover': {
               transform: 'scale(1.02)',
             },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: 'black',  // Border color
+              },
+              '&:hover fieldset': {
+                borderColor: 'black',  // Border color on hover
+              },
+              '&.Mui-focused fieldset': {
+                borderColor: 'black',  // Border color on focus
+              },
+            },
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
+            },
           }}
-        />
+                  />
       </Grid>
       <Grid item xs={12} md={6}>
   <TextField
@@ -632,23 +631,23 @@ const ApplyNow = () => {
       },
       '& .MuiOutlinedInput-root': {
         '& fieldset': {
-          borderColor: 'white', // Border color
+          borderColor: 'black', // Border color
         },
         '&:hover fieldset': {
-          borderColor: 'white', // Border color on hover
+          borderColor: 'black', // Border color on hover
         },
         '&.Mui-focused fieldset': {
-          borderColor: 'white', // Border color on focus
+          borderColor: 'black', // Border color on focus
         },
       },
       '& .MuiInputLabel-root': {
-        color: 'white', // Label color
+        color: 'black', // Label color
       },
       '& .MuiInputBase-input': {
-        color: 'white', // Text input color
+        color: 'black', // Text input color
       },
       '& .MuiSelect-icon': {
-        color: 'white', // Dropdown icon color
+        color: 'black', // Dropdown icon color
         position: 'absolute',
         right: '16px', // Align to the right of the input box
         top: '50%', // Vertically align icon
@@ -704,37 +703,36 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter your GST number"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
-            },
-            '& .MuiOutlinedInput-root': {
-              '& fieldset': {
-                borderColor: 'white',
-              },
-              '&:hover fieldset': {
-                borderColor: 'white',
-              },
-              '&.Mui-focused fieldset': {
-                borderColor: 'white',
-              },
-            },
+            transition: 'transform 0.2s',
             '&:hover': {
               transform: 'scale(1.02)',
             },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: 'black',  // Border color
+              },
+              '&:hover fieldset': {
+                borderColor: 'black',  // Border color on hover
+              },
+              '&.Mui-focused fieldset': {
+                borderColor: 'black',  // Border color on focus
+              },
+            },
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
+            },
           }}
-        />
+                  />
       </Grid>
 
       {/* Loan Amount */}
@@ -757,34 +755,33 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter loan amount"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
+            transition: 'transform 0.2s',
+            '&:hover': {
+              transform: 'scale(1.02)',
             },
             '& .MuiOutlinedInput-root': {
               '& fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color
               },
               '&:hover fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on hover
               },
               '&.Mui-focused fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on focus
               },
             },
-            '&:hover': {
-              transform: 'scale(1.02)',
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
             },
           }}
         />
@@ -812,34 +809,33 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter yearly turnover"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
+            transition: 'transform 0.2s',
+            '&:hover': {
+              transform: 'scale(1.02)',
             },
             '& .MuiOutlinedInput-root': {
               '& fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color
               },
               '&:hover fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on hover
               },
               '&.Mui-focused fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on focus
               },
             },
-            '&:hover': {
-              transform: 'scale(1.02)',
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
             },
           }}
         />
@@ -865,34 +861,33 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter state"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
+            transition: 'transform 0.2s',
+            '&:hover': {
+              transform: 'scale(1.02)',
             },
             '& .MuiOutlinedInput-root': {
               '& fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color
               },
               '&:hover fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on hover
               },
               '&.Mui-focused fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on focus
               },
             },
-            '&:hover': {
-              transform: 'scale(1.02)',
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
             },
           }}
         />
@@ -919,34 +914,33 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter city"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
+            transition: 'transform 0.2s',
+            '&:hover': {
+              transform: 'scale(1.02)',
             },
             '& .MuiOutlinedInput-root': {
               '& fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color
               },
               '&:hover fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on hover
               },
               '&.Mui-focused fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',  // Border color on focus
               },
             },
-            '&:hover': {
-              transform: 'scale(1.02)',
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
             },
           }}
         />
@@ -972,37 +966,36 @@ const ApplyNow = () => {
             ),
           }}
           placeholder="Enter pincode"
-          sx={{
-            mb: 2,
+          sx={{ 
+            mb: 2, 
+            color: 'black',  // Text color
             borderRadius: '8px',
-            '& input': {
-              color: 'white',
-            },
-            '& ::placeholder': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root': {
-              color: 'white',
-            },
-            '& .MuiInputLabel-root.Mui-focused': {
-              color: 'white',
-            },
-            '& .MuiOutlinedInput-root': {
-              '& fieldset': {
-                borderColor: 'white',
-              },
-              '&:hover fieldset': {
-                borderColor: 'white',
-              },
-              '&.Mui-focused fieldset': {
-                borderColor: 'white',
-              },
-            },
+            transition: 'transform 0.2s',
             '&:hover': {
               transform: 'scale(1.02)',
             },
+            '& .MuiOutlinedInput-root': {
+              '& fieldset': {
+                borderColor: 'black',  // Border color
+              },
+              '&:hover fieldset': {
+                borderColor: 'black',  // Border color on hover
+              },
+              '&.Mui-focused fieldset': {
+                borderColor: 'black',  // Border color on focus
+              },
+            },
+            '& .MuiInputLabel-root': {
+              color: 'black',  // Label color
+            },
+            '& .MuiInputBase-input': {
+              color: 'black',  // Text input color
+            },
+            '& .MuiOutlinedInput-root .MuiInputBase-input::placeholder': {
+              color: 'black',  // Placeholder color
+            },
           }}
-        />
+                  />
       </Grid>
       
     </Grid>
