@@ -54,8 +54,7 @@ const LoanProcess = () => {
           marginBottom: 3,
           fontWeight: 500,
           fontSize: { xs: "0.7rem", sm: "0.8rem", md: "1.2rem" },}}>
-    Applying for a Business Loan from 100daysfinance is easy in these 4 steps:
-  </Typography>
+Get a loan in 4 easy steps: Apply Online, Get Approval, Receive Funds, Repay with Ease!  </Typography>
       <Box
         sx={{
           display: "flex",

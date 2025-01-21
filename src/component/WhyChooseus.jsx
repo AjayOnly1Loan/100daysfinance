@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Box, Container } from "@mui/material";
-import contentImage from "../assets/image/Frame 535 (5).png"; // Ensure the path to the image is correct
+import contentImage from "../assets/image/Frame 535 (7).png"; // Ensure the path to the image is correct
 
 const WhyChooseUs = () => {
   const heading = "Our Product Features:"; // Define the heading
