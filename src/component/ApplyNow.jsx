@@ -35,6 +35,7 @@ const ApplyNow = () => {
     mobile: "",
     aadhaar: "",
     personalEmail: "",
+    reference: "",
     businessName: "",
     propertyType: "",
     gstNo: "",
@@ -196,6 +197,7 @@ const ApplyNow = () => {
         }),
       });
 
+      
       if (!response.ok) throw new Error("Network response was not ok");
 
       const result = await response.json();
@@ -213,6 +215,7 @@ const ApplyNow = () => {
         mobile: "",
         aadhaar: "",
         personalEmail: "",
+        reference: "",
         businessName: "",
         propertyType: "",
         gstNo: "",
@@ -571,6 +574,66 @@ const ApplyNow = () => {
                     },
                   }}
                   placeholder="Enter your personal email"
+                  sx={{
+                    mb: 2,
+                    color: "black", // Text color
+                    borderRadius: "8px",
+                    transition: "transform 0.2s",
+                    "&:hover": {
+                      transform: "scale(1.02)",
+                    },
+                    "& .MuiOutlinedInput-root": {
+                      "& fieldset": {
+                        borderColor: "black", // Border color
+                      },
+                      "&:hover fieldset": {
+                        borderColor: "black", // Border color on hover
+                      },
+                      "&.Mui-focused fieldset": {
+                        borderColor: "black", // Border color on focus
+                      },
+                    },
+                    "& .MuiInputLabel-root": {
+                      color: "black", // Label color
+                    },
+                    "& .MuiInputBase-input": {
+                      color: "black", // Text input color
+                    },
+                    "& .MuiOutlinedInput-root .MuiInputBase-input::placeholder":
+                      {
+                        color: "black", // Placeholder color
+                      },
+                  }}
+                />
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <TextField
+                  label="Reference"
+                  type="text"
+                  variant="outlined"
+                  fullWidth
+                  required
+                  onChange={handleInputChange}
+                  name="reference"
+                  InputProps={{
+                    startAdornment: (
+                      <InputAdornment position="start">
+                        <Box
+                          sx={{
+                            backgroundColor: "white",
+                            borderRadius: "50%",
+                            padding: "4px",
+                          }}
+                        >
+                          <Person sx={{ color: "black" }} />
+                        </Box>
+                      </InputAdornment>
+                    ),
+                    style: {
+                      color: "white", // Text color
+                    },
+                  }}
+                  placeholder="Enter Reference Name"
                   sx={{
                     mb: 2,
                     color: "black", // Text color
